@@ -88,3 +88,14 @@ h3{
     background: var(--color-secondary);
     color: black;
 }
+
+/* LIST*/
+.list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.list--tick{
+    list-style-image: url(../images/tick-svgrepo-com.svg);
+    padding-left: 6rem;
+}
