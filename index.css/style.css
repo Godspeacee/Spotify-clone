@@ -1,9 +1,10 @@
-.root{
+:root{
     --color-primary: #fadadd;
     --color-secondary: #896f8c;
     --color-accent: #ecbd00 ;
     --color-baked: #78909c ;
-    --color-text: #fefcff ;
+    --color-body: #fefcff ;
+    --color-link: whitesmoke;
 }
 /* Typography*/
 html{
@@ -14,11 +15,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.4rem;
     line-height: 1.5;
-    color: var(--color-text);
+    color: var(--color-body);
+    background: black;
 }
 
 h1,h2,h3 {
-    color: var(--color-text);
+    color: var(--color-body);
     margin-bottom: 1rem;
 }
 
@@ -32,7 +34,7 @@ h2{
 
 h3{
     font-size: 3rem;
-}n
+}
 
 p{
     margin-top: 0;
@@ -54,4 +56,16 @@ p{
 h3{
     font-size: 2.4rem;
 }
+}
+
+/* LINKS*/
+.link{
+    color: var(--color-link);
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .link{
+        font-size: 1.5rem;
+    }
 }
