@@ -6,6 +6,13 @@
     --color-body: #fefcff ;
     --color-link: whitesmoke;
 }
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 /* Typography*/
 html{
     font-size: 62.5%;
@@ -113,4 +120,74 @@ h3{
 .icon--round{
     background: whitesmoke;
     border-radius: 30px;
+}
+
+/*BUTTON*/
+
+.btn{
+    font-size: 1.8rem;
+    padding: 1.5rem 5rem;
+    border-radius: 50px;
+    font-weight: 600;
+    margin: 1rem 0;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn--primary{
+    background:var(--color-primary);
+}
+
+.btn--primary:hover{
+    background: #f1e0e2;
+    transform: scale(1.05);
+}
+
+.btn--black{
+    padding: 1.5rem 4rem;
+    color: whitesmoke;
+    background: black;
+    border: 1px solid white;
+    margin-left: 15px;
+}
+
+.btn--black:hover{
+    transform: scale(1.05);
+}
+
+.btn--secondary{
+    background: var(--color-secondary);
+}
+
+.btn--secondary:hover {
+    transform: scale(1.05)
+}
+
+.btn--accent{
+    background: var(--color-accent);
+}
+
+.btn--accent:hover {
+    transform: scale(1.05);
+}
+
+.btn--baked{
+    background: var(--color-baked);
+}
+
+.btn--baked:hover {
+    transform: scale(1.05);
+}
+
+.btn--block{
+    width: 100%;
+    display: inline-block;
+}
+
+@media screen and (min-width:1028px  ) {
+    .btn{
+        font-size: 1.5rem;
+    }
 }
