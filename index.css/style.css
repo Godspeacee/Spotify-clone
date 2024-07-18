@@ -335,3 +335,21 @@ h3{
 .collapsible--expanded .collapsible__content{
     max-height: 100vh;
 }
+
+/*Block*/
+.block{
+    padding: 6rem 2rem;
+}
+
+.block__header{
+    text-align: center;
+}
+
+.block__heading{
+    margin-top: 0;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
