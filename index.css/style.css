@@ -306,3 +306,32 @@ h3{
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+/*Collapsible*/
+.collapsible__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.collapsible__heading{
+    margin-top: 0;
+}
+
+.collapsible__header:hover{
+    background: #4e4d4d; 
+    text-decoration: underline;
+}
+
+.collapsible__content{
+    max-height: 0;
+    overflow: hidden;
+}
+
+.collapsible--expanded .collapsible__downarrow{
+    transform: rotate(180deg);
+    transition: transform 0.3s;
+}
+
+.collapsible--expanded .collapsible__content{
+    max-height: 100vh;
+}
