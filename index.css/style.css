@@ -353,3 +353,62 @@ h3{
     max-width: 1140px;
     margin: 0 auto;
 }
+
+/*Nav*/
+.nav{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:0 1rem;
+    align-items: center;
+}
+
+.nav--icon{
+    width: 150px;
+    height: 150px;
+}
+
+.nav .icon{
+    align-self: center;
+}
+
+.nav__list{
+    width: 100%;
+    margin: 0;
+}
+
+.nav__item{
+    padding: 0.5 2rem;
+}
+
+.nav__item > a{
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav__item > a:hover{
+    color: rgb(13, 229, 13);
+}
+
+.nav__toggler{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+
+    .nav__toggler{
+        display: none;
+    }
+    .nav__list{
+        width: auto;
+        display: flex;
+        max-height: 100%;
+    }
+
+    .nav__item{
+        padding: 1rem;
+        font-weight: 600;
+    }
+}
