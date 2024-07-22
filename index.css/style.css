@@ -291,6 +291,13 @@ h3{
     transform: scale(1.05);
 }
 
+.lefty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
 /* Grid*/
 .grid{
     display: grid;
@@ -554,6 +561,9 @@ tr:hover{
 .footer__brand .brand{
     width: 100%;
     cursor: pointer;
+}
+.left{
+    margin-left: 5rem;
 }
 
 .logo{
