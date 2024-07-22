@@ -494,3 +494,14 @@ tr:hover{
 .shrink{
     font-size: x-large;
 }
+
+/* Plans block */
+
+.block-plans .grid{
+    gap: 4rem;
+}
+
+.block-plans .card{
+    max-width: 500px;
+    margin: 0  auto;
+}

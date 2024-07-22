@@ -7,36 +7,108 @@
     <link rel="stylesheet" href="/index.css/style.css">
 </head>
 <body>
-   <section class="block container">
-    <header class="block__header">
-        <h2>Affordable plans for any situation</h2>
-        <p class="shrink">Choose a Premium plan and listen to ad-free music without limits on your phone, speaker, and other devices. Pay in various ways. Cancel anytime.</p>
-    </header>
-    <div class="block__content container">
-        <svg class="icon">
-            <use xlink:href="images/logo.svg#visa"></use>
-        </svg>
-        <svg class="icon">
-            <use xlink:href="images/logo.svg#mastercard"></use>
-        </svg>
-        <svg class="icon">
-            <use xlink:href="images/logo.svg#verve"></use>
-        </svg>
-    </div>
-    <div class="grid grid--1x2">
-        <header class="block__header">
-            <h2>All Premium plans include</h2>
+    <section class="block container block-plans">
+        <div class="grid grid--1x3">
+            <div class="plan">
+                <div class="card">
+                    <header class="card__header">
+                        <span class="badge badge--primary">Free for 1 month</span>
+                        <div class="align">
+                            <svg class="icon">
+                                <use xlink:href="images/sprite.svg#spotify"></use>
+                            </svg>
+                            <p>Premium</p>
+                        </div>
+                        <h2 class="plan__name plan--primary">Individual</h2>
+                        <span><h3 class="plan__info">Free for 1 month</h3></span>
+                        <span class="plan__price">NGN 900 / month after</span>
+                    </header>
+                     <div class="line"></div>
+                     <div class="card__body">
+                            <ul class="list">
+                                <li>1 Premium account</li>
+                                <li>Cancel any time</li>
+                                <li>Subscribe or one-time payment</li>
+                            </ul>
+                            <button class="btn btn--primary btn--block">Try free for 1 month</button>
+                            <span class="plan__price">Free for 1 month, then NGN 900 per month after. Offer only available if you haven't tried Premium before.<a href="Terms apply" class="link">Terms apply</a></span>
+                        </div>  
+                </div>
+         </div>
+         <div class="plan">
+            <div class="card">
+                <header class="card__header">
+                    <div class="align">
+                        <svg class="icon">
+                            <use xlink:href="images/sprite.svg#spotify"></use>
+                        </svg>
+                        <p>Premium</p>
+                    </div>
+                    <h2 class="plan__name plan--secondary">Student</h2>
+                    <span><h3 class="plan__info">Free for 1 month</h3></span>
+                    <span class="plan__price">NGN 450 / month after</span>
+                </header>
+                 <div class="line"></div>
+                 <div class="card__body">
+                        <ul class="list">
+                            <li>1 verified Premium account</li>
+                            <li>Discount for eligible students</li>
+                            <li>Cancel anytime</li>
+                        </ul>
+                        <button class="btn btn--secondary btn--block">Try free for 1 month</button>
+                        <span class="plan__price">Free for 1 month, then NGN 450 per month after. Offer available only to students at an accredited higher education institution and if you haven't tried Premium before.<a href="Terms apply" class="link">Terms apply</a></span>
+                    </div>  
+            </div>
+     </div>
+     <div class="plan">
+        <div class="card">
+            <header class="card__header">
+                <div class="align">
+                    <svg class="icon">
+                        <use xlink:href="images/sprite.svg#spotify"></use>
+                    </svg>
+                    <p>Premium</p>
+                </div>
+                <h2 class="plan__name plan--accent">Duo</h2>
+                <span><h3 class="plan__info">NGN 1,200 / month</h3></span>
+            </header>
+             <div class="line"></div>
+             <div class="card__body">
+                    <ul class="list">
+                        <li>2 Premium accounts</li>
+                        <li>Cancel any time</li>
+                    </ul>
+                    <button class="btn btn--accent btn--block">Get Premium Duo</button>
+                    <span class="plan__price">For couples who reside at the same address.<a href="Terms apply" class="link">Terms apply</a></span>
+                </div>  
+        </div>
+ </div>
+ <div class="plan">
+    <div class="card">
+        <header class="card__header">
+            <div class="align">
+                <svg class="icon">
+                    <use xlink:href="images/sprite.svg#spotify"></use>
+                </svg>
+                <p>Premium</p>
+            </div>
+            <h2 class="plan__name plan--baked">Family</h2>
+            <span><h3 class="plan__info">NGN 1,400 / month</h3></span>
         </header>
-        <ul class="list list--tick">
-            <li>Ad-free music listening</li>
-            <li>Download to listen offline</li>
-            <li>Play songs in any order</li>
-            <li>High audio quality</li>
-            <li>Listen with friends in real time</li>
-            <li>Organize listening queue</li>
-        </ul>
+         <div class="line"></div>
+         <div class="card__body">
+                <ul class="list">
+                    <li>Up to 6 Premium accounts</li>
+                    <li>Control content marked as explicit</li>
+                    <li>Cancel anytime</li>
+                </ul>
+                <button class="btn btn--baked btn--block">Get Premium Family</button>
+                <span class="plan__price">For up to 6 family members residing at the same address.<a href="Terms apply" class="link">Terms apply</a></span>
+            </div>  
     </div>
-   </section>
+</div>
+        </div>
+    </section>        
     <script src="index.js"></script>
 </body>
 </html     
