@@ -523,3 +523,101 @@ tr:hover{
         font-size: 1rem;
     }
 }
+
+/* Footer*/
+.footer{
+    background: black;
+}
+
+.footer__heading{
+    color: #757373;
+}
+
+.footer__link{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 3rem;
+}
+
+.footer__link:hover{
+    color: rgb(13, 229, 13);
+}
+
+.footer__list{
+    margin-bottom: 2rem;
+}
+
+.brand{
+    width: 130px;
+    height: 130px;
+}
+.footer__brand .brand{
+    width: 100%;
+    cursor: pointer;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 0.5rem;
+    background: #57565668;
+    cursor: pointer;
+}
+
+.footer__lin{
+    text-decoration: none;
+    color: grey;
+    font-weight: 600;
+    margin-right: 3rem;
+}
+
+.footer__lin:hover{
+    color: rgb(13, 229, 13);
+}
+
+.footer__links{
+    font-size: 1rem;
+}
+.in-between{
+    justify-content: space-between;
+}
+
+.copy{
+    color: gray;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.move{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.u{
+    display: inline;
+}
+
+.Nigeria{
+    display: flex;
+    justify-content: end;
+    color: grey;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.Nigeria:hover{
+    color: rgb(13, 229, 13);
+}
+
+@media screen and (min-width: 768px) {
+    .footer__section{
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    }
+    .footer__heading{
+        font-size: 1.5rem;
+    }
+    .footer__links{
+        display: flex;
+    }
+}
