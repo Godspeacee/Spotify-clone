@@ -505,3 +505,21 @@ tr:hover{
     max-width: 500px;
     margin: 0  auto;
 }
+
+/* Feature*/
+
+.feature  p >a:hover{
+    color: wheat;
+}
+
+
+.feature .collapsible__content{
+    background: rgba(121, 119, 119, 0.248);
+    margin-bottom: 5rem;
+}
+
+@media screen and (min-width:1028px) {
+    .collapsible__header .h3{
+        font-size: 1rem;
+    }
+}
